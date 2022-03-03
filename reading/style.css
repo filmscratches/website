@@ -1,0 +1,61 @@
+.reading-body {
+  max-width: 900px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+
+.summary {
+  display: flex;
+  align-items: start;
+}
+
+.cover {
+  width: 100px;
+}
+
+.details {
+  margin-left: 40px;
+}
+
+.title {
+  font-size: 25px;
+  color: black;
+}
+
+.status-and-date, .notes, .tags {
+  margin-top: 10px;
+}
+
+.notes, .tags {
+  font-size: 14px;
+}
+
+.buttons {
+  margin-bottom: 15px;
+}
+
+.toggle-button {
+  margin-right: 10px;
+  margin-bottom: 5px;
+  background-color: #f1f1f1;
+  border: 1px solid;
+  border-radius: 3px;
+}
+
+.toggle-button:hover {
+  background-color: #e8e8e8
+}
+
+.toggle-button-on {
+  background-color: #77c200;
+}
+.toggle-button-on:hover {
+  background-color: #4caf50;
+}
