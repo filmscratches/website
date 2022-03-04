@@ -39,6 +39,9 @@
       padding: 15px; 
          font-size: 16px;        
       }
+      a.title {
+        font-size: 20px;
+      }
     }
   
   a {

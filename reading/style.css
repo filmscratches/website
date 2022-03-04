@@ -1,3 +1,12 @@
+@media only screen and (max-width: 800px) {
+  .reading-body {
+    padding: 15px;        
+    }
+    a.title {
+      font-size: 20px;
+    }
+     }
+
 .reading-body {
   max-width: 900px;
 }
