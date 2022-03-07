@@ -1,5 +1,5 @@
 @media only screen and (max-width: 800px) {
-  .reading-body {
+  .film-body {
     padding: 15px;        
     }
     a.title {
@@ -7,11 +7,11 @@
     }
      }
 
-.reading-body {
+.film-body {
   max-width: 900px;
 }
 
-.book {
+.film {
   display: flex;
   flex-direction: column;
   padding: 20px;
@@ -20,12 +20,14 @@
   margin-bottom: 10px;
 }
 
+.director { font-size: 18px; }
+
 .summary {
   display: flex;
   align-items: start;
 }
 
-.cover {
+.poster {
   width: 100px;
 }
 
@@ -38,8 +40,12 @@
   color: black;
 }
 
-.status-and-date, .notes, .tags {
+.stars, .notes {
   margin-top: 10px;
+}
+
+.tags {
+  margin-top: 15px;
 }
 
 .notes, .tags {
