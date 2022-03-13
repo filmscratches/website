@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Letterboxd</title>
+  <title>Film Diary</title>
   <link rel="shortcut icon" type="image/jpg" href="/favicon.png"/>
   <link rel="stylesheet" type="text/css" href="main.css">
   <link rel="stylesheet" type="text/css" href="fonts.css">
@@ -24,7 +24,7 @@
         <div>
             <h1>Film Diary &#127902;</h1>
             <p>A list of films I've watched in the cinema since I launched this page in March 2022, with the occassional streaming exclusive if it has a good reputation. Anything &#9733;&#9733;&#9733;&#9733; and above is an automatic recommendation.</p>
-            <p>I'm only going to see films that genuinely interest me. No content for content's sake, or deliberate hatewatching - life's too short for bad films. &#9996;</p>
+            <p>I'm only going to see films that genuinely interest me. No content for content's sake (again, streaming), or deliberate hatewatching - life's too short for bad films. &#9996;</p>
             <hr/>
             <p>Filter by star rating:</p>
             <div class='buttons'>
@@ -44,9 +44,12 @@
             </p>
             <p>
             <div class='buttons'>
+                <button class='toggle-button' id="animation" onclick='toggleTag("animation")'>animation</button>
                 <button class='toggle-button' id="comedy" onclick='toggleTag("comedy")'>comedy</button>
                 <button class='toggle-button' id="drama" onclick='toggleTag("drama")'>drama</button>
+                <button class='toggle-button' id="fantasy" onclick='toggleTag("fantasy")'>fantasy</button>
                 <button class='toggle-button' id="horror" onclick='toggleTag("horror")'>horror</button>
+                <button class='toggle-button' id="romance" onclick='toggleTag("romance")'>romance</button>
                 <button class='toggle-button' id="superhero" onclick='toggleTag("superhero")'>superhero</button>
             </div></p>
             <hr /> <p></p>
@@ -59,12 +62,12 @@
                         <div class="stars">
                             <strong class="stars">&#9733;&#9733;&#9733;</strong> / watched March 7th 
                         </div>
-                        <div class="notes">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam lobortis cursus gravida. Mauris eu sapien suscipit, ultrices nunc sed, scelerisque dui. Suspendisse quam ex, porta a neque nec, ultricies ultricies sem. Maecenas pellentesque elit ut felis ultrices, id pellentesque quam tristique. Ut pulvinar mauris non accumsan congue. Fusce rutrum, arcu sit amet semper ultrices, dui odio condimentum elit, in tempor ante turpis sed nisi. Donec imperdiet euismod felis id lobortis. Donec lacinia, libero eu viverra aliquet, massa est congue ipsum, eu congue sapien lacus id erat. Integer non augue cursus, posuere sem vitae, tristique nunc. Phasellus eu ex ligula. Vivamus tempus elementum facilisis. Donec laoreet facilisis nisl, in finibus lectus tristique laoreet.</div>
+                        <div class="notes">Ali and Ava's engaging burgeoning romance in a dystopian hellhole — "Bradford" — is heightened by the woozy use of music as a means of escapism; making seeing this at the cinema worthwhile. It's certainly a British lottery funded film, though. Those Hollywood script doctors would never allow something so meandering and incident free through, insisting on at least one scene in an airport. Syd Field may have been a supreme bullshitter but he was not wrong about the need for protagonist journeys and climaxes. Sidenote: <em>Ali & Ava</em> contains the best damn production management ever committed to film (hi Rob!).</div>
                     </div>
                 </div>
                 <div class="tags">
                         tags: 
-                    <span class="taglist">drama</span>
+                    <span class="taglist">drama, romance</span>
                 </div>
             </div>
 
@@ -86,7 +89,23 @@
                 </div>
             </div>
 
-
+            <div class="film">
+                <div class="summary">
+                    <img class="poster" src="https://www.themoviedb.org/t/p/w1280/qsdjk9oAKSQMWs0Vt5Pyfh6O4GZ.jpg"/>
+                    <div class="details">
+                        <a href="https://www.themoviedb.org/movie/508947-turning-red?language=en-GB" class="title">Turning Red</a>
+                        <div class="director">dir: Domee Shi</div>
+                        <div class="stars">
+                            <strong class="stars">&#9733;&#9733;&#9733;&#9733;</strong> / watched March 12th
+                        </div>
+                        <div class="notes">The initial annoyance of precocious Mei-Lee dissolves into a charming, often hilarious coming-of-age film that blends well traditional Asian heritage with weird nostalgia for boy bands and Tamagotchis. This literal period piece - there's sanitary pads and everything - feels substantial versus most of Pixar's output post-<em>Toy Story 3</em>, which makes its unceremonious dumping onto Disney+ a shame.</div>
+                    </div>
+                </div>
+                <div class="tags">
+                        tags: 
+                    <span class="taglist">animation, comedy, fantasy </span>
+                </div>
+            </div>
 
         </div>
     </div>
