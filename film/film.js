@@ -33,8 +33,8 @@ function applyFilters() {
     if (selectedStatuses.length !== 0 && !selectedStatuses.includes(status)) {
      include = false
     }
-    const film = film[i].getElementsByClassName('taglist')[0].textContent.split(", ")
-    if (selectedTags.length !== 0 && !includefilm(filmTags, selectedTags)) {
+    const filmTags = film[i].getElementsByClassName('taglist')[0].textContent.split(", ")
+    if (selectedTags.length !== 0 && !includeBook(filmTags, selectedTags)) {
       include = false
     }
 
