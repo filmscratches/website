@@ -26,23 +26,23 @@ function toggleTag(tag) {
 }
 
 function applyFilters() {
-  const film = document.getElementsByClassName('film')
-  for (let i = 0; i < film.length; i++) {
-    const status = film[i].getElementsByClassName('status')[0].textContent
+  const films = document.getElementsByClassName('film')
+  for (let i = 0; i < films.length; i++) {
+    const status = films[i].getElementsByClassName('status')[0].textContent
     let include = true
     if (selectedStatuses.length !== 0 && !selectedStatuses.includes(status)) {
      include = false
     }
-    const film = film[i].getElementsByClassName('taglist')[0].textContent.split(", ")
+    const film = films[i].getElementsByClassName('taglist')[0].textContent.split(", ")
     if (selectedTags.length !== 0 && !includefilm(filmTags, selectedTags)) {
       include = false
     }
 
     if (include) {
-      film[i].style.display = 'block'
+      films[i].style.display = 'block'
     }
     else {
-      film[i].style.display = 'none'
+      films[i].style.display = 'none'
     }
   }
 }
