@@ -1,5 +1,5 @@
 @media only screen and (max-width: 800px) {
-  .reading-body {
+  .film-body {
     padding: 15px;        
     }
     a.title {
@@ -7,11 +7,11 @@
     }
      }
 
-.reading-body {
+.film-body {
   max-width: 900px;
 }
 
-.book {
+.film {
   display: flex;
   flex-direction: column;
   padding: 20px;
