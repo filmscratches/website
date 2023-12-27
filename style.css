@@ -8,14 +8,14 @@
 
 a {
     text-decoration: none;
-    color: white;
+    color: #1E1E20;
 }
 
 
 body {
     padding: 32px;
-    color: white;
-    background-color: #17171C;
+    color: #1E1E20;
+    background-color: #F6E0DA;
     display: flex;
     justify-content: center;
 }
